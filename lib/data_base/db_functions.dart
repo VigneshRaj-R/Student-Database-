@@ -1,3 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:provider/provider.dart';
+import 'package:student_data/provider/student_list.dart';
+
 import '../model/data_model.dart';
 
 class DbFunctions {
